@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Stacked Carousel</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <p class="info">Click to show next slide</p>
+    <div class="slider" style="--total-slide: 4;">
+        <label class="slide" style="--index: 4;">
+            <input type="radio" name="slider" class="slide__input">
+            <div class="card">
+                <h2 class="card__title">Slide 1/4</h2>
+            </div>
+        </label>
+        <label class="slide" style="--index: 3;">
+            <input type="radio" name="slider" class="slide__input">
+            <div class="card">
+                <h2 class="card__title">Slide 2/4</h2>
+            </div>
+        </label>
+        <label class="slide" style="--index: 2;">
+            <input type="radio" name="slider" class="slide__input">
+            <div class="card">
+                <h2 class="card__title">Slide 3/4</h2>
+            </div>
+        </label>
+        <label class="slide" style="--index: 1;">
+            <input type="radio" name="slider" class="slide__input" checked>
+            <div class="card">
+                <h2 class="card__title">Slide 4/4</h2>
+            </div>
+        </label>
+    </div>
+</body>
+</html>
